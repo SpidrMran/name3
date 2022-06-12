@@ -1,0 +1,268 @@
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local H = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local FF = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local FNB = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local FTAP = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local TPE = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local Note = Instance.new("Frame")
+local UIGradient_7 = Instance.new("UIGradient")
+local Note_2 = Instance.new("TextLabel")
+local Note_3 = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+main.BackgroundTransparency = 0.070
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.550501227, 0, 0.422413796, 0)
+main.Size = UDim2.new(0.422513485, 0, 0.537931025, 0)
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 170, 170)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.87, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Rotation = -90
+UIGradient.Parent = main
+
+H.Name = "H"
+H.Parent = main
+H.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+H.BorderColor3 = Color3.fromRGB(79, 131, 198)
+H.BorderSizePixel = 2
+H.Position = UDim2.new(0.707000017, 0, 0.0209999997, 0)
+H.Size = UDim2.new(0.273999989, 0, 0.141000003, 0)
+H.Font = Enum.Font.Code
+H.Text = "Hide/Show: Del"
+H.TextColor3 = Color3.fromRGB(255, 255, 255)
+H.TextScaled = true
+H.TextSize = 14.000
+H.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 200, 200)), ColorSequenceKeypoint.new(0.03, Color3.fromRGB(201, 201, 201)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Rotation = -90
+UIGradient_2.Parent = H
+
+FF.Name = "FF"
+FF.Parent = main
+FF.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+FF.BorderColor3 = Color3.fromRGB(79, 131, 198)
+FF.BorderSizePixel = 2
+FF.Position = UDim2.new(0.0401459858, 0, 0.160256416, 0)
+FF.Size = UDim2.new(0.266423345, 0, 0.131410256, 0)
+FF.Font = Enum.Font.Code
+FF.Text = "Funky Friday Dev Tools"
+FF.TextColor3 = Color3.fromRGB(255, 255, 255)
+FF.TextScaled = true
+FF.TextSize = 14.000
+FF.TextWrapped = true
+FF.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoinkyPoinkie/FunkyFridayDevTools/main/Un-Obfuscated",true))()
+end)
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 200, 200)), ColorSequenceKeypoint.new(0.03, Color3.fromRGB(201, 201, 201)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Rotation = -90
+UIGradient_3.Parent = FF
+
+FNB.Name = "FNB"
+FNB.Parent = main
+FNB.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+FNB.BorderColor3 = Color3.fromRGB(79, 131, 198)
+FNB.BorderSizePixel = 2
+FNB.Position = UDim2.new(0.0401459858, 0, 0.330128193, 0)
+FNB.Size = UDim2.new(0.266423345, 0, 0.131410256, 0)
+FNB.Font = Enum.Font.Code
+FNB.Text = "Friday Night Bloxxin AutoPlayer"
+FNB.TextColor3 = Color3.fromRGB(255, 255, 255)
+FNB.TextScaled = true
+FNB.TextSize = 14.000
+FNB.TextWrapped = true
+FNB.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Mati278/FNB-Autoplayer/main/the%20thing.lua"))()
+end)
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 200, 200)), ColorSequenceKeypoint.new(0.03, Color3.fromRGB(201, 201, 201)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Rotation = -90
+UIGradient_4.Parent = FNB
+
+FTAP.Name = "FTAP"
+FTAP.Parent = main
+FTAP.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+FTAP.BorderColor3 = Color3.fromRGB(79, 131, 198)
+FTAP.BorderSizePixel = 2
+FTAP.Position = UDim2.new(0.0401459858, 0, 0.503205121, 0)
+FTAP.Size = UDim2.new(0.266423345, 0, 0.131410256, 0)
+FTAP.Font = Enum.Font.Code
+FTAP.Text = "Fling things and people fast and greater reach"
+FTAP.TextColor3 = Color3.fromRGB(255, 255, 255)
+FTAP.TextScaled = true
+FTAP.TextSize = 14.000
+FTAP.TextWrapped = true
+FTAP.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SpidrMran/name/main/source"))()
+end)
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 200, 200)), ColorSequenceKeypoint.new(0.03, Color3.fromRGB(201, 201, 201)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Rotation = -90
+UIGradient_5.Parent = FTAP
+
+TPE.Name = "TPE"
+TPE.Parent = main
+TPE.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TPE.BorderColor3 = Color3.fromRGB(79, 131, 198)
+TPE.BorderSizePixel = 2
+TPE.Position = UDim2.new(0.0401459858, 0, 0.698717952, 0)
+TPE.Size = UDim2.new(0.266423345, 0, 0.131410256, 0)
+TPE.Font = Enum.Font.Code
+TPE.Text = "The Presentation Experience Teleports"
+TPE.TextColor3 = Color3.fromRGB(255, 255, 255)
+TPE.TextScaled = true
+TPE.TextSize = 14.000
+TPE.TextWrapped = true
+TPE.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/imaboy12321/eewewew/main/ewewewewe"))()
+end)
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 200, 200)), ColorSequenceKeypoint.new(0.03, Color3.fromRGB(201, 201, 201)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_6.Rotation = -90
+UIGradient_6.Parent = TPE
+
+Note.Name = "Note"
+Note.Parent = main
+Note.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+Note.BorderColor3 = Color3.fromRGB(89, 123, 235)
+Note.BorderSizePixel = 2
+Note.Position = UDim2.new(0.337591231, 0, 0.269230783, 0)
+Note.Size = UDim2.new(0.642335773, 0, 0.647435904, 0)
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(170, 170, 170)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.87, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_7.Rotation = -90
+UIGradient_7.Parent = Note
+
+Note_2.Name = "Note:"
+Note_2.Parent = Note
+Note_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Note_2.BackgroundTransparency = 1.000
+Note_2.Size = UDim2.new(0.445783138, 0, 0.184834123, 0)
+Note_2.Font = Enum.Font.Code
+Note_2.Text = "Note:"
+Note_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Note_2.TextScaled = true
+Note_2.TextSize = 14.000
+Note_2.TextWrapped = true
+
+Note_3.Name = "Note"
+Note_3.Parent = Note
+Note_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Note_3.BackgroundTransparency = 1.000
+Note_3.BorderSizePixel = 0
+Note_3.Position = UDim2.new(0, 0, 0.184834093, 0)
+Note_3.Size = UDim2.new(0, 352, 0, 164)
+Note_3.Font = Enum.Font.Code
+Note_3.Text = "No Notes Here!"
+Note_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Note_3.TextScaled = true
+Note_3.TextSize = 14.000
+Note_3.TextWrapped = true
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0.408759117, 0, 0.131410256, 0)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "SpidrMrans Sploits"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+-- Scripts:
+
+local function ATKKL_fake_script() -- H.LocalScript 
+	local script = Instance.new('LocalScript', H)
+
+	local s = script.Parent.Parent.Parent
+	local m = script.Parent
+	
+	m.MouseButton1Click:Connect(function()
+		s.Enabled = false
+	end)
+end
+coroutine.wrap(ATKKL_fake_script)()
+local function LRNE_fake_script() -- FF.LocalScript 
+	local script = Instance.new('LocalScript', FF)
+
+	local n = script.Parent.Parent.Note.Note
+	local p = script.Parent
+	
+	p.MouseButton1Click:Connect(function()
+		n.Text = "If you are using autoplay and the game lag spikes or the song has spam then you may not get the accurate misses"
+	end)
+end
+coroutine.wrap(LRNE_fake_script)()
+local function KXRJE_fake_script() -- FNB.LocalScript 
+	local script = Instance.new('LocalScript', FNB)
+
+	local n = script.Parent.Parent.Note.Note
+	local p = script.Parent
+	
+	p.MouseButton1Click:Connect(function()
+		n.Text = "This will not work on death arrows and has less settings than funky friday dev tools"
+	end)
+end
+coroutine.wrap(KXRJE_fake_script)()
+local function KYYV_fake_script() -- FTAP.LocalScript 
+	local script = Instance.new('LocalScript', FTAP)
+
+	local n = script.Parent.Parent.Note.Note
+	local p = script.Parent
+	
+	p.MouseButton1Click:Connect(function()
+		n.Text = "This doesnt work as good as you think it might not work at all"
+	end)
+end
+coroutine.wrap(KYYV_fake_script)()
+local function BUNMYZN_fake_script() -- TPE.LocalScript 
+	local script = Instance.new('LocalScript', TPE)
+
+	local n = script.Parent.Parent.Note.Note
+	local p = script.Parent
+	
+	p.MouseButton1Click:Connect(function()
+		n.Text = "This just teleports you to different parts of the map (outside, exc)"
+	end)
+end
+coroutine.wrap(BUNMYZN_fake_script)()
+local function MDMS_fake_script() -- ScreenGui.KeyCode 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local UIS = game:GetService("UserInputService")
+	
+	UIS.InputBegan:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.Delete then
+			if script.Parent.Enabled == true then
+				script.Parent.Enabled = false
+			else
+				script.Parent.Enabled = true
+			end
+		end
+	end)
+end
+coroutine.wrap(MDMS_fake_script)()
